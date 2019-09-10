@@ -1,0 +1,1 @@
+# Scaremonger library
