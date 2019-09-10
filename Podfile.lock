@@ -1,0 +1,20 @@
+PODS:
+  - RxSwift (5.0.0)
+  - SwiftLint (0.34.0)
+
+DEPENDENCIES:
+  - RxSwift (~> 5)
+  - SwiftLint
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - RxSwift
+    - SwiftLint
+
+SPEC CHECKSUMS:
+  RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
+  SwiftLint: 79d48a17c6565dc286c37efb8322c7b450f95c67
+
+PODFILE CHECKSUM: 1a5d344e522605d14269c1fc14c70a04f847bdda
+
+COCOAPODS: 1.7.5

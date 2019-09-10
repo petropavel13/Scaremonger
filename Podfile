@@ -8,6 +8,7 @@ abstract_target 'Scaremonger' do
 
   # common pods
   pod 'SwiftLint'
+  pod 'RxSwift', '~> 5'
 
   target 'Scaremonger-iOS' do
     platform :ios, '9.0'
@@ -17,7 +18,7 @@ abstract_target 'Scaremonger' do
   end
 
   target 'Scaremonger-watchOS' do
-    platform :watchos, '2.0'
+    platform :watchos, '3.0'
 
     # pods for watchOS
 
@@ -27,6 +28,13 @@ abstract_target 'Scaremonger' do
     platform :tvos, '9.0'
 
     # pods for tvOS
+
+  end
+
+  target 'Example' do
+    platform :ios, '9.0'
+
+    # pods for Example
 
   end
 

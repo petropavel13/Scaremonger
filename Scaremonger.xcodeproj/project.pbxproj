@@ -7,35 +7,203 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04BC826CBFA3D9924C5E6931 /* Pods_Scaremonger_Scaremonger_watchOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DB62EA171227D2577B20D75 /* Pods_Scaremonger_Scaremonger_watchOS.framework */; };
 		066649C29C3732A77D03FBF7 /* Scaremonger.h in Headers */ = {isa = PBXBuildFile; fileRef = A768C631AE5E9FB338FD2F12 /* Scaremonger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		518180AB8D7D2FA12449513C /* Scaremonger.h in Headers */ = {isa = PBXBuildFile; fileRef = A768C631AE5E9FB338FD2F12 /* Scaremonger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62286402CA339A8E9708FDAD /* Pods_Scaremonger_Scaremonger_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 355F52526871B330D197BA4D /* Pods_Scaremonger_Scaremonger_tvOS.framework */; };
 		67F280F6A7BF628CBDA740F6 /* Scaremonger.h in Headers */ = {isa = PBXBuildFile; fileRef = A768C631AE5E9FB338FD2F12 /* Scaremonger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		783931A22327A1A000081B0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783931A12327A1A000081B0D /* AppDelegate.swift */; };
+		783931A42327A1A000081B0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783931A32327A1A000081B0D /* ViewController.swift */; };
+		783931A72327A1A000081B0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 783931A52327A1A000081B0D /* Main.storyboard */; };
+		783931A92327A1A100081B0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 783931A82327A1A100081B0D /* Assets.xcassets */; };
+		783931AC2327A1A100081B0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 783931AA2327A1A100081B0D /* LaunchScreen.storyboard */; };
+		783931B42327A34500081B0D /* Disposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783931B32327A34500081B0D /* Disposable.swift */; };
+		783931B52327A34500081B0D /* Disposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783931B32327A34500081B0D /* Disposable.swift */; };
+		783931B62327A34500081B0D /* Disposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783931B32327A34500081B0D /* Disposable.swift */; };
+		783931B92327A36200081B0D /* Disposable+RxDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783931B82327A36200081B0D /* Disposable+RxDisposable.swift */; };
+		783931BA2327A36200081B0D /* Disposable+RxDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783931B82327A36200081B0D /* Disposable+RxDisposable.swift */; };
+		783931BB2327A36200081B0D /* Disposable+RxDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783931B82327A36200081B0D /* Disposable+RxDisposable.swift */; };
+		783931BE2327A3BA00081B0D /* ScaremongerDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783931BD2327A3BA00081B0D /* ScaremongerDisposable.swift */; };
+		783931BF2327A3BA00081B0D /* ScaremongerDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783931BD2327A3BA00081B0D /* ScaremongerDisposable.swift */; };
+		783931C02327A3BA00081B0D /* ScaremongerDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783931BD2327A3BA00081B0D /* ScaremongerDisposable.swift */; };
+		783931C22327A3D900081B0D /* ScaremongerScopeDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783931C12327A3D900081B0D /* ScaremongerScopeDisposable.swift */; };
+		783931C32327A3D900081B0D /* ScaremongerScopeDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783931C12327A3D900081B0D /* ScaremongerScopeDisposable.swift */; };
+		783931C42327A3D900081B0D /* ScaremongerScopeDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783931C12327A3D900081B0D /* ScaremongerScopeDisposable.swift */; };
+		783931C62327A42400081B0D /* ScaremongerSubscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783931C52327A42400081B0D /* ScaremongerSubscriber.swift */; };
+		783931C72327A42400081B0D /* ScaremongerSubscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783931C52327A42400081B0D /* ScaremongerSubscriber.swift */; };
+		783931C82327A42400081B0D /* ScaremongerSubscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783931C52327A42400081B0D /* ScaremongerSubscriber.swift */; };
+		783931CA2327A43A00081B0D /* ScaremongerEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783931C92327A43900081B0D /* ScaremongerEmitter.swift */; };
+		783931CB2327A43A00081B0D /* ScaremongerEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783931C92327A43900081B0D /* ScaremongerEmitter.swift */; };
+		783931CC2327A43A00081B0D /* ScaremongerEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783931C92327A43900081B0D /* ScaremongerEmitter.swift */; };
+		783931CE2327A45D00081B0D /* ScaremongerDispatchers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783931CD2327A45D00081B0D /* ScaremongerDispatchers.swift */; };
+		783931CF2327A45D00081B0D /* ScaremongerDispatchers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783931CD2327A45D00081B0D /* ScaremongerDispatchers.swift */; };
+		783931D02327A45D00081B0D /* ScaremongerDispatchers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783931CD2327A45D00081B0D /* ScaremongerDispatchers.swift */; };
+		783931D32327A49900081B0D /* ConnectableScaremongerDispatcher+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783931D22327A49900081B0D /* ConnectableScaremongerDispatcher+Extensions.swift */; };
+		783931D42327A49900081B0D /* ConnectableScaremongerDispatcher+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783931D22327A49900081B0D /* ConnectableScaremongerDispatcher+Extensions.swift */; };
+		783931D52327A49900081B0D /* ConnectableScaremongerDispatcher+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783931D22327A49900081B0D /* ConnectableScaremongerDispatcher+Extensions.swift */; };
+		783931D82327A4BF00081B0D /* CompoundDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783931D72327A4BF00081B0D /* CompoundDispatcher.swift */; };
+		783931D92327A4BF00081B0D /* CompoundDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783931D72327A4BF00081B0D /* CompoundDispatcher.swift */; };
+		783931DA2327A4BF00081B0D /* CompoundDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783931D72327A4BF00081B0D /* CompoundDispatcher.swift */; };
+		783931DC2327A50700081B0D /* BaseScaremongerEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783931DB2327A50700081B0D /* BaseScaremongerEmitter.swift */; };
+		783931DD2327A50700081B0D /* BaseScaremongerEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783931DB2327A50700081B0D /* BaseScaremongerEmitter.swift */; };
+		783931DE2327A50700081B0D /* BaseScaremongerEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783931DB2327A50700081B0D /* BaseScaremongerEmitter.swift */; };
+		783931E02327A53100081B0D /* Scaremonger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783931DF2327A53100081B0D /* Scaremonger.swift */; };
+		783931E12327A53100081B0D /* Scaremonger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783931DF2327A53100081B0D /* Scaremonger.swift */; };
+		783931E22327A53100081B0D /* Scaremonger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783931DF2327A53100081B0D /* Scaremonger.swift */; };
+		783931E42327A55800081B0D /* FilterDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783931E32327A55800081B0D /* FilterDispatcher.swift */; };
+		783931E52327A55800081B0D /* FilterDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783931E32327A55800081B0D /* FilterDispatcher.swift */; };
+		783931E62327A55800081B0D /* FilterDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783931E32327A55800081B0D /* FilterDispatcher.swift */; };
+		783931E82327A5DE00081B0D /* Rx+Scaremonger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783931E72327A5DE00081B0D /* Rx+Scaremonger.swift */; };
+		783931E92327A5DE00081B0D /* Rx+Scaremonger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783931E72327A5DE00081B0D /* Rx+Scaremonger.swift */; };
+		783931EA2327A5DE00081B0D /* Rx+Scaremonger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783931E72327A5DE00081B0D /* Rx+Scaremonger.swift */; };
+		783931EC2327A6DF00081B0D /* AlertDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783931EB2327A6DF00081B0D /* AlertDispatcher.swift */; };
+		783931F02327A7C100081B0D /* AlertDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783931EB2327A6DF00081B0D /* AlertDispatcher.swift */; };
+		783931F22327A82D00081B0D /* AlertSubscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783931F12327A82D00081B0D /* AlertSubscriber.swift */; };
+		783931F32327A82D00081B0D /* AlertSubscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783931F12327A82D00081B0D /* AlertSubscriber.swift */; };
+		783931F52327C52700081B0D /* ForkDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783931F42327C52700081B0D /* ForkDispatcher.swift */; };
+		783931F62327C52700081B0D /* ForkDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783931F42327C52700081B0D /* ForkDispatcher.swift */; };
+		783931F72327C52900081B0D /* ForkDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783931F42327C52700081B0D /* ForkDispatcher.swift */; };
+		783931F92327C76300081B0D /* LoggingDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783931F82327C76300081B0D /* LoggingDispatcher.swift */; };
+		783931FA2327C76300081B0D /* LoggingDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783931F82327C76300081B0D /* LoggingDispatcher.swift */; };
+		783931FB2327C76300081B0D /* LoggingDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783931F82327C76300081B0D /* LoggingDispatcher.swift */; };
+		783931FE2327C8AB00081B0D /* SessionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783931FD2327C8AB00081B0D /* SessionService.swift */; };
+		783932012327C99400081B0D /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783932002327C99400081B0D /* ApiError.swift */; };
+		783932042327C9E400081B0D /* ProfileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783932032327C9E400081B0D /* ProfileService.swift */; };
+		783932062327CA0000081B0D /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783932052327CA0000081B0D /* Profile.swift */; };
+		783932092327CA5D00081B0D /* RenewSessionSubscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783932082327CA5D00081B0D /* RenewSessionSubscriber.swift */; };
+		7839320B2327CB4200081B0D /* Scaremonger+Default.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7839320A2327CB4200081B0D /* Scaremonger+Default.swift */; };
+		7839320D2327CE0C00081B0D /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7839320C2327CE0C00081B0D /* ViewModel.swift */; };
+		93255F584DF7C80E635F4A00 /* Pods_Scaremonger_Scaremonger_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47838114178D4D199CB720E1 /* Pods_Scaremonger_Scaremonger_iOS.framework */; };
+		D378DFC03DAF91467033E6A8 /* Pods_Scaremonger_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95ED2A913476B2F9CC7CE3DE /* Pods_Scaremonger_Example.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		783931B12327A20C00081B0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3810F9C8437C108A3007194 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1071D1FFCAA7A772D8D33939;
+			remoteInfo = "Scaremonger-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		45C79E26F080F71E23D961A7 /* Scaremonger-tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Scaremonger-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4756BFB1966D68F470592EDF /* Scaremonger-iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Scaremonger-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03ACB34DA8FE766D9C9981C3 /* Pods-Scaremonger-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scaremonger-Example.release.xcconfig"; path = "Target Support Files/Pods-Scaremonger-Example/Pods-Scaremonger-Example.release.xcconfig"; sourceTree = "<group>"; };
+		1DB62EA171227D2577B20D75 /* Pods_Scaremonger_Scaremonger_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Scaremonger_Scaremonger_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		355F52526871B330D197BA4D /* Pods_Scaremonger_Scaremonger_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Scaremonger_Scaremonger_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		400E56B36C974A9953DFC24B /* Pods-Scaremonger-Scaremonger-watchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scaremonger-Scaremonger-watchOS.debug.xcconfig"; path = "Target Support Files/Pods-Scaremonger-Scaremonger-watchOS/Pods-Scaremonger-Scaremonger-watchOS.debug.xcconfig"; sourceTree = "<group>"; };
+		4360C6BBC209AEA3E7D0D3B7 /* Pods-Scaremonger-Scaremonger-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scaremonger-Scaremonger-tvOS.release.xcconfig"; path = "Target Support Files/Pods-Scaremonger-Scaremonger-tvOS/Pods-Scaremonger-Scaremonger-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		45C79E26F080F71E23D961A7 /* Scaremonger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Scaremonger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4756BFB1966D68F470592EDF /* Scaremonger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Scaremonger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47838114178D4D199CB720E1 /* Pods_Scaremonger_Scaremonger_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Scaremonger_Scaremonger_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AE0F14454EB064030336F17 /* Pods-Scaremonger-Scaremonger-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scaremonger-Scaremonger-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-Scaremonger-Scaremonger-tvOS/Pods-Scaremonger-Scaremonger-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		7839319F2327A1A000081B0D /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		783931A12327A1A000081B0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		783931A32327A1A000081B0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		783931A62327A1A000081B0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		783931A82327A1A100081B0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		783931AB2327A1A100081B0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		783931AD2327A1A100081B0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		783931B32327A34500081B0D /* Disposable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disposable.swift; sourceTree = "<group>"; };
+		783931B82327A36200081B0D /* Disposable+RxDisposable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Disposable+RxDisposable.swift"; sourceTree = "<group>"; };
+		783931BD2327A3BA00081B0D /* ScaremongerDisposable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaremongerDisposable.swift; sourceTree = "<group>"; };
+		783931C12327A3D900081B0D /* ScaremongerScopeDisposable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaremongerScopeDisposable.swift; sourceTree = "<group>"; };
+		783931C52327A42400081B0D /* ScaremongerSubscriber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaremongerSubscriber.swift; sourceTree = "<group>"; };
+		783931C92327A43900081B0D /* ScaremongerEmitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaremongerEmitter.swift; sourceTree = "<group>"; };
+		783931CD2327A45D00081B0D /* ScaremongerDispatchers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaremongerDispatchers.swift; sourceTree = "<group>"; };
+		783931D22327A49900081B0D /* ConnectableScaremongerDispatcher+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ConnectableScaremongerDispatcher+Extensions.swift"; sourceTree = "<group>"; };
+		783931D72327A4BF00081B0D /* CompoundDispatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompoundDispatcher.swift; sourceTree = "<group>"; };
+		783931DB2327A50700081B0D /* BaseScaremongerEmitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseScaremongerEmitter.swift; sourceTree = "<group>"; };
+		783931DF2327A53100081B0D /* Scaremonger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scaremonger.swift; sourceTree = "<group>"; };
+		783931E32327A55800081B0D /* FilterDispatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterDispatcher.swift; sourceTree = "<group>"; };
+		783931E72327A5DE00081B0D /* Rx+Scaremonger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rx+Scaremonger.swift"; sourceTree = "<group>"; };
+		783931EB2327A6DF00081B0D /* AlertDispatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertDispatcher.swift; sourceTree = "<group>"; };
+		783931F12327A82D00081B0D /* AlertSubscriber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertSubscriber.swift; sourceTree = "<group>"; };
+		783931F42327C52700081B0D /* ForkDispatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForkDispatcher.swift; sourceTree = "<group>"; };
+		783931F82327C76300081B0D /* LoggingDispatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggingDispatcher.swift; sourceTree = "<group>"; };
+		783931FD2327C8AB00081B0D /* SessionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionService.swift; sourceTree = "<group>"; };
+		783932002327C99400081B0D /* ApiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
+		783932032327C9E400081B0D /* ProfileService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileService.swift; sourceTree = "<group>"; };
+		783932052327CA0000081B0D /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		783932082327CA5D00081B0D /* RenewSessionSubscriber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenewSessionSubscriber.swift; sourceTree = "<group>"; };
+		7839320A2327CB4200081B0D /* Scaremonger+Default.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Scaremonger+Default.swift"; sourceTree = "<group>"; };
+		7839320C2327CE0C00081B0D /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		7C77758B89BFD05CD7EC5918 /* Pods-Scaremonger-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scaremonger-Example.debug.xcconfig"; path = "Target Support Files/Pods-Scaremonger-Example/Pods-Scaremonger-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		95ED2A913476B2F9CC7CE3DE /* Pods_Scaremonger_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Scaremonger_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A768C631AE5E9FB338FD2F12 /* Scaremonger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Scaremonger.h; sourceTree = "<group>"; };
-		AF56C0A7793DBF7E05322521 /* Scaremonger-watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Scaremonger-watchOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF56C0A7793DBF7E05322521 /* Scaremonger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Scaremonger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C471EDE25074BCEEF1F19BB9 /* Pods-Scaremonger-Scaremonger-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scaremonger-Scaremonger-iOS.debug.xcconfig"; path = "Target Support Files/Pods-Scaremonger-Scaremonger-iOS/Pods-Scaremonger-Scaremonger-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		DDB9A3490975D90F5B026DB7 /* Pods-Scaremonger-Scaremonger-watchOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scaremonger-Scaremonger-watchOS.release.xcconfig"; path = "Target Support Files/Pods-Scaremonger-Scaremonger-watchOS/Pods-Scaremonger-Scaremonger-watchOS.release.xcconfig"; sourceTree = "<group>"; };
+		F82385E916EDCB55845A3430 /* Pods-Scaremonger-Scaremonger-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scaremonger-Scaremonger-iOS.release.xcconfig"; path = "Target Support Files/Pods-Scaremonger-Scaremonger-iOS/Pods-Scaremonger-Scaremonger-iOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B230B2641B92F89008308BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62286402CA339A8E9708FDAD /* Pods_Scaremonger_Scaremonger_tvOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31DBB28E9DC43653418EC2A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93255F584DF7C80E635F4A00 /* Pods_Scaremonger_Scaremonger_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7839319C2327A1A000081B0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D378DFC03DAF91467033E6A8 /* Pods_Scaremonger_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE7C24ACB0034615807166F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BC826CBFA3D9924C5E6931 /* Pods_Scaremonger_Scaremonger_watchOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		0B79BD10DA8DFACB2F0A6822 = {
 			isa = PBXGroup;
 			children = (
 				76C1E0F75DE201E3BC25AC63 /* Sources */,
+				783931A02327A1A000081B0D /* Example */,
 				202F19483BFB20123680014E /* Products */,
+				791786B1E91ABB6C28090724 /* Pods */,
+				1E755FFED4C4285DD1173547 /* Frameworks */,
 			);
 			indentWidth = 4;
 			sourceTree = "<group>";
 			usesTabs = 0;
 		};
+		1E755FFED4C4285DD1173547 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47838114178D4D199CB720E1 /* Pods_Scaremonger_Scaremonger_iOS.framework */,
+				355F52526871B330D197BA4D /* Pods_Scaremonger_Scaremonger_tvOS.framework */,
+				1DB62EA171227D2577B20D75 /* Pods_Scaremonger_Scaremonger_watchOS.framework */,
+				95ED2A913476B2F9CC7CE3DE /* Pods_Scaremonger_Example.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		202F19483BFB20123680014E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4756BFB1966D68F470592EDF /* Scaremonger-iOS.framework */,
-				45C79E26F080F71E23D961A7 /* Scaremonger-tvOS.framework */,
-				AF56C0A7793DBF7E05322521 /* Scaremonger-watchOS.framework */,
+				4756BFB1966D68F470592EDF /* Scaremonger.framework */,
+				45C79E26F080F71E23D961A7 /* Scaremonger.framework */,
+				AF56C0A7793DBF7E05322521 /* Scaremonger.framework */,
+				7839319F2327A1A000081B0D /* Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,9 +229,125 @@
 			path = Sources;
 			sourceTree = "<group>";
 		};
+		783931A02327A1A000081B0D /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				783931FC2327C88C00081B0D /* Business Logic */,
+				783931A12327A1A000081B0D /* AppDelegate.swift */,
+				783931A32327A1A000081B0D /* ViewController.swift */,
+				783931A52327A1A000081B0D /* Main.storyboard */,
+				783931A82327A1A100081B0D /* Assets.xcassets */,
+				783931AA2327A1A100081B0D /* LaunchScreen.storyboard */,
+				783931AD2327A1A100081B0D /* Info.plist */,
+				7839320C2327CE0C00081B0D /* ViewModel.swift */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		783931B72327A34A00081B0D /* Rx */ = {
+			isa = PBXGroup;
+			children = (
+				783931B82327A36200081B0D /* Disposable+RxDisposable.swift */,
+				783931E72327A5DE00081B0D /* Rx+Scaremonger.swift */,
+			);
+			path = Rx;
+			sourceTree = "<group>";
+		};
+		783931BC2327A3A100081B0D /* DIsposables */ = {
+			isa = PBXGroup;
+			children = (
+				783931BD2327A3BA00081B0D /* ScaremongerDisposable.swift */,
+				783931C12327A3D900081B0D /* ScaremongerScopeDisposable.swift */,
+			);
+			path = DIsposables;
+			sourceTree = "<group>";
+		};
+		783931D12327A48100081B0D /* Dispatchers */ = {
+			isa = PBXGroup;
+			children = (
+				783931D22327A49900081B0D /* ConnectableScaremongerDispatcher+Extensions.swift */,
+			);
+			path = Dispatchers;
+			sourceTree = "<group>";
+		};
+		783931D62327A4B500081B0D /* Dispatchers */ = {
+			isa = PBXGroup;
+			children = (
+				783931D72327A4BF00081B0D /* CompoundDispatcher.swift */,
+				783931DF2327A53100081B0D /* Scaremonger.swift */,
+				783931E32327A55800081B0D /* FilterDispatcher.swift */,
+				783931EB2327A6DF00081B0D /* AlertDispatcher.swift */,
+				783931F42327C52700081B0D /* ForkDispatcher.swift */,
+				783931F82327C76300081B0D /* LoggingDispatcher.swift */,
+			);
+			path = Dispatchers;
+			sourceTree = "<group>";
+		};
+		783931EF2327A6E600081B0D /* Subscribers */ = {
+			isa = PBXGroup;
+			children = (
+				783931F12327A82D00081B0D /* AlertSubscriber.swift */,
+			);
+			path = Subscribers;
+			sourceTree = "<group>";
+		};
+		783931FC2327C88C00081B0D /* Business Logic */ = {
+			isa = PBXGroup;
+			children = (
+				783932072327CA1100081B0D /* ErrorHandling */,
+				783932022327C9D900081B0D /* Services */,
+				783931FF2327C98600081B0D /* Models */,
+				783931FD2327C8AB00081B0D /* SessionService.swift */,
+			);
+			path = "Business Logic";
+			sourceTree = "<group>";
+		};
+		783931FF2327C98600081B0D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				783932002327C99400081B0D /* ApiError.swift */,
+				783932052327CA0000081B0D /* Profile.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		783932022327C9D900081B0D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				783932032327C9E400081B0D /* ProfileService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		783932072327CA1100081B0D /* ErrorHandling */ = {
+			isa = PBXGroup;
+			children = (
+				783932082327CA5D00081B0D /* RenewSessionSubscriber.swift */,
+				7839320A2327CB4200081B0D /* Scaremonger+Default.swift */,
+			);
+			path = ErrorHandling;
+			sourceTree = "<group>";
+		};
+		791786B1E91ABB6C28090724 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C471EDE25074BCEEF1F19BB9 /* Pods-Scaremonger-Scaremonger-iOS.debug.xcconfig */,
+				F82385E916EDCB55845A3430 /* Pods-Scaremonger-Scaremonger-iOS.release.xcconfig */,
+				6AE0F14454EB064030336F17 /* Pods-Scaremonger-Scaremonger-tvOS.debug.xcconfig */,
+				4360C6BBC209AEA3E7D0D3B7 /* Pods-Scaremonger-Scaremonger-tvOS.release.xcconfig */,
+				400E56B36C974A9953DFC24B /* Pods-Scaremonger-Scaremonger-watchOS.debug.xcconfig */,
+				DDB9A3490975D90F5B026DB7 /* Pods-Scaremonger-Scaremonger-watchOS.release.xcconfig */,
+				7C77758B89BFD05CD7EC5918 /* Pods-Scaremonger-Example.debug.xcconfig */,
+				03ACB34DA8FE766D9C9981C3 /* Pods-Scaremonger-Example.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A9A63356F4F7EA8D603AF28B /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				783931D12327A48100081B0D /* Dispatchers */,
+				783931B72327A34A00081B0D /* Rx */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -71,6 +355,10 @@
 		B16BFC835DC834339D182A09 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				783931D62327A4B500081B0D /* Dispatchers */,
+				783931BC2327A3A100081B0D /* DIsposables */,
+				783931EF2327A6E600081B0D /* Subscribers */,
+				783931DB2327A50700081B0D /* BaseScaremongerEmitter.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -85,6 +373,10 @@
 		EA02EC17C489B82670F04996 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				783931B32327A34500081B0D /* Disposable.swift */,
+				783931C52327A42400081B0D /* ScaremongerSubscriber.swift */,
+				783931C92327A43900081B0D /* ScaremongerEmitter.swift */,
+				783931CD2327A45D00081B0D /* ScaremongerDispatchers.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -130,10 +422,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BBCD3AD59DF630D65C69CE3D /* Build configuration list for PBXNativeTarget "Scaremonger-iOS" */;
 			buildPhases = (
+				8A7A570D150645E15CB583AD /* [CP] Check Pods Manifest.lock */,
 				C33685EC59B54DFDDE9F8442 /* Headers */,
 				C4F6144A1970C6F4958AB1E0 /* Sources */,
 				825C934EDBE8D478517343EF /* Swiftlint */,
 				A4FC291D889EC6661EC75287 /* CopyPaste Detection */,
+				31DBB28E9DC43653418EC2A0 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -141,17 +435,19 @@
 			);
 			name = "Scaremonger-iOS";
 			productName = "Scaremonger-iOS";
-			productReference = 4756BFB1966D68F470592EDF /* Scaremonger-iOS.framework */;
+			productReference = 4756BFB1966D68F470592EDF /* Scaremonger.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		40810FAD0836171FB20337B5 /* Scaremonger-watchOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF4FB67285840C0179FC69F9 /* Build configuration list for PBXNativeTarget "Scaremonger-watchOS" */;
 			buildPhases = (
+				ADC450D674FB601EABB6C746 /* [CP] Check Pods Manifest.lock */,
 				49D38CB4A6A7C448B85B746E /* Headers */,
 				D5C7194B3A7F8714AE383A78 /* Sources */,
 				C4E22B5038FF6FEE56551D26 /* Swiftlint */,
 				7A2C9AF063CB589C326C8638 /* CopyPaste Detection */,
+				DE7C24ACB0034615807166F3 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -159,17 +455,39 @@
 			);
 			name = "Scaremonger-watchOS";
 			productName = "Scaremonger-watchOS";
-			productReference = AF56C0A7793DBF7E05322521 /* Scaremonger-watchOS.framework */;
+			productReference = AF56C0A7793DBF7E05322521 /* Scaremonger.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		7839319E2327A1A000081B0D /* Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 783931AE2327A1A100081B0D /* Build configuration list for PBXNativeTarget "Example" */;
+			buildPhases = (
+				C7CE938A20D84E94E70C4516 /* [CP] Check Pods Manifest.lock */,
+				7839319B2327A1A000081B0D /* Sources */,
+				7839319C2327A1A000081B0D /* Frameworks */,
+				7839319D2327A1A000081B0D /* Resources */,
+				DAD3E888EB4E703F16998926 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				783931B22327A20C00081B0D /* PBXTargetDependency */,
+			);
+			name = Example;
+			productName = Example;
+			productReference = 7839319F2327A1A000081B0D /* Example.app */;
+			productType = "com.apple.product-type.application";
 		};
 		E77FF73C711AE9B6959D2E0F /* Scaremonger-tvOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F1085D46C5D8AE5160F51402 /* Build configuration list for PBXNativeTarget "Scaremonger-tvOS" */;
 			buildPhases = (
+				1D8AD77DDD4DED0B13368CE1 /* [CP] Check Pods Manifest.lock */,
 				94928D765DD8426E1495DD8B /* Headers */,
 				BEF090AD36D2477303AD6F40 /* Sources */,
 				2F876E43EF75F8CCA3EB090B /* Swiftlint */,
 				5EC7A3DA6B1EDE1721BEB100 /* CopyPaste Detection */,
+				0B230B2641B92F89008308BD /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -177,7 +495,7 @@
 			);
 			name = "Scaremonger-tvOS";
 			productName = "Scaremonger-tvOS";
-			productReference = 45C79E26F080F71E23D961A7 /* Scaremonger-tvOS.framework */;
+			productReference = 45C79E26F080F71E23D961A7 /* Scaremonger.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +504,22 @@
 		C3810F9C8437C108A3007194 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1030;
 				LastUpgradeCheck = 1030;
+				TargetAttributes = {
+					1071D1FFCAA7A772D8D33939 = {
+						LastSwiftMigration = 1030;
+					};
+					40810FAD0836171FB20337B5 = {
+						LastSwiftMigration = 1030;
+					};
+					7839319E2327A1A000081B0D = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					E77FF73C711AE9B6959D2E0F = {
+						LastSwiftMigration = 1030;
+					};
+				};
 			};
 			buildConfigurationList = C910904618693F2A6C237659 /* Build configuration list for PBXProject "Scaremonger" */;
 			compatibilityVersion = "Xcode 10.0";
@@ -194,19 +527,57 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 0B79BD10DA8DFACB2F0A6822;
+			productRefGroup = 202F19483BFB20123680014E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				1071D1FFCAA7A772D8D33939 /* Scaremonger-iOS */,
 				E77FF73C711AE9B6959D2E0F /* Scaremonger-tvOS */,
 				40810FAD0836171FB20337B5 /* Scaremonger-watchOS */,
+				7839319E2327A1A000081B0D /* Example */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		7839319D2327A1A000081B0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				783931AC2327A1A100081B0D /* LaunchScreen.storyboard in Resources */,
+				783931A92327A1A100081B0D /* Assets.xcassets in Resources */,
+				783931A72327A1A000081B0D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXShellScriptBuildPhase section */
+		1D8AD77DDD4DED0B13368CE1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Scaremonger-Scaremonger-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		2F876E43EF75F8CCA3EB090B /* Swiftlint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -279,6 +650,28 @@
 			shellPath = /bin/sh;
 			shellScript = ". build-scripts/xcode/build_phases/swiftlint.sh Sources";
 		};
+		8A7A570D150645E15CB583AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Scaremonger-Scaremonger-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		A4FC291D889EC6661EC75287 /* CopyPaste Detection */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -296,6 +689,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = ". build-scripts/xcode/build_phases/copy_paste_detection.sh Sources";
+		};
+		ADC450D674FB601EABB6C746 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Scaremonger-Scaremonger-watchOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
 		C4E22B5038FF6FEE56551D26 /* Swiftlint */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -315,13 +730,85 @@
 			shellPath = /bin/sh;
 			shellScript = ". build-scripts/xcode/build_phases/swiftlint.sh Sources";
 		};
+		C7CE938A20D84E94E70C4516 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Scaremonger-Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAD3E888EB4E703F16998926 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Scaremonger-Example/Pods-Scaremonger-Example-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Scaremonger-Example/Pods-Scaremonger-Example-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Scaremonger-Example/Pods-Scaremonger-Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		7839319B2327A1A000081B0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				783931FE2327C8AB00081B0D /* SessionService.swift in Sources */,
+				7839320D2327CE0C00081B0D /* ViewModel.swift in Sources */,
+				783932062327CA0000081B0D /* Profile.swift in Sources */,
+				7839320B2327CB4200081B0D /* Scaremonger+Default.swift in Sources */,
+				783932012327C99400081B0D /* ApiError.swift in Sources */,
+				783931A42327A1A000081B0D /* ViewController.swift in Sources */,
+				783931A22327A1A000081B0D /* AppDelegate.swift in Sources */,
+				783932092327CA5D00081B0D /* RenewSessionSubscriber.swift in Sources */,
+				783932042327C9E400081B0D /* ProfileService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BEF090AD36D2477303AD6F40 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				783931B52327A34500081B0D /* Disposable.swift in Sources */,
+				783931D92327A4BF00081B0D /* CompoundDispatcher.swift in Sources */,
+				783931CF2327A45D00081B0D /* ScaremongerDispatchers.swift in Sources */,
+				783931F02327A7C100081B0D /* AlertDispatcher.swift in Sources */,
+				783931E92327A5DE00081B0D /* Rx+Scaremonger.swift in Sources */,
+				783931D42327A49900081B0D /* ConnectableScaremongerDispatcher+Extensions.swift in Sources */,
+				783931DD2327A50700081B0D /* BaseScaremongerEmitter.swift in Sources */,
+				783931BF2327A3BA00081B0D /* ScaremongerDisposable.swift in Sources */,
+				783931FA2327C76300081B0D /* LoggingDispatcher.swift in Sources */,
+				783931F62327C52700081B0D /* ForkDispatcher.swift in Sources */,
+				783931F32327A82D00081B0D /* AlertSubscriber.swift in Sources */,
+				783931E52327A55800081B0D /* FilterDispatcher.swift in Sources */,
+				783931C32327A3D900081B0D /* ScaremongerScopeDisposable.swift in Sources */,
+				783931CB2327A43A00081B0D /* ScaremongerEmitter.swift in Sources */,
+				783931E12327A53100081B0D /* Scaremonger.swift in Sources */,
+				783931BA2327A36200081B0D /* Disposable+RxDisposable.swift in Sources */,
+				783931C72327A42400081B0D /* ScaremongerSubscriber.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,6 +816,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				783931B42327A34500081B0D /* Disposable.swift in Sources */,
+				783931D82327A4BF00081B0D /* CompoundDispatcher.swift in Sources */,
+				783931CE2327A45D00081B0D /* ScaremongerDispatchers.swift in Sources */,
+				783931EC2327A6DF00081B0D /* AlertDispatcher.swift in Sources */,
+				783931E82327A5DE00081B0D /* Rx+Scaremonger.swift in Sources */,
+				783931D32327A49900081B0D /* ConnectableScaremongerDispatcher+Extensions.swift in Sources */,
+				783931DC2327A50700081B0D /* BaseScaremongerEmitter.swift in Sources */,
+				783931BE2327A3BA00081B0D /* ScaremongerDisposable.swift in Sources */,
+				783931F92327C76300081B0D /* LoggingDispatcher.swift in Sources */,
+				783931F52327C52700081B0D /* ForkDispatcher.swift in Sources */,
+				783931F22327A82D00081B0D /* AlertSubscriber.swift in Sources */,
+				783931E42327A55800081B0D /* FilterDispatcher.swift in Sources */,
+				783931C22327A3D900081B0D /* ScaremongerScopeDisposable.swift in Sources */,
+				783931CA2327A43A00081B0D /* ScaremongerEmitter.swift in Sources */,
+				783931E02327A53100081B0D /* Scaremonger.swift in Sources */,
+				783931B92327A36200081B0D /* Disposable+RxDisposable.swift in Sources */,
+				783931C62327A42400081B0D /* ScaremongerSubscriber.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,15 +840,59 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				783931F72327C52900081B0D /* ForkDispatcher.swift in Sources */,
+				783931B62327A34500081B0D /* Disposable.swift in Sources */,
+				783931DA2327A4BF00081B0D /* CompoundDispatcher.swift in Sources */,
+				783931D02327A45D00081B0D /* ScaremongerDispatchers.swift in Sources */,
+				783931EA2327A5DE00081B0D /* Rx+Scaremonger.swift in Sources */,
+				783931D52327A49900081B0D /* ConnectableScaremongerDispatcher+Extensions.swift in Sources */,
+				783931DE2327A50700081B0D /* BaseScaremongerEmitter.swift in Sources */,
+				783931C02327A3BA00081B0D /* ScaremongerDisposable.swift in Sources */,
+				783931E62327A55800081B0D /* FilterDispatcher.swift in Sources */,
+				783931C42327A3D900081B0D /* ScaremongerScopeDisposable.swift in Sources */,
+				783931FB2327C76300081B0D /* LoggingDispatcher.swift in Sources */,
+				783931CC2327A43A00081B0D /* ScaremongerEmitter.swift in Sources */,
+				783931E22327A53100081B0D /* Scaremonger.swift in Sources */,
+				783931BB2327A36200081B0D /* Disposable+RxDisposable.swift in Sources */,
+				783931C82327A42400081B0D /* ScaremongerSubscriber.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		783931B22327A20C00081B0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1071D1FFCAA7A772D8D33939 /* Scaremonger-iOS */;
+			targetProxy = 783931B12327A20C00081B0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		783931A52327A1A000081B0D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				783931A62327A1A000081B0D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		783931AA2327A1A100081B0D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				783931AB2327A1A100081B0D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		135D9C0199F3582C2A0A9828 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AE0F14454EB064030336F17 /* Pods-Scaremonger-Scaremonger-tvOS.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -353,10 +901,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Sources/Info-tvOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_NAME = Scaremonger;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -418,7 +970,9 @@
 		};
 		3AE45114DFD0652F961DF854 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDB9A3490975D90F5B026DB7 /* Pods-Scaremonger-Scaremonger-watchOS.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -427,6 +981,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Sources/Info-watchOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_NAME = Scaremonger;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -438,7 +997,9 @@
 		};
 		6E02695E58F42E814713B7F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 400E56B36C974A9953DFC24B /* Pods-Scaremonger-Scaremonger-watchOS.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -447,14 +1008,77 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Sources/Info-watchOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_NAME = Scaremonger;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
+		};
+		783931AF2327A1A100081B0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C77758B89BFD05CD7EC5918 /* Pods-Scaremonger-Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = D4HA43V467;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.touchin.testapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development ru.touchin.testapp";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		783931B02327A1A100081B0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03ACB34DA8FE766D9C9981C3 /* Pods-Scaremonger-Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = D4HA43V467;
+				INFOPLIST_FILE = Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.touchin.testapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development ru.touchin.testapp";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
 		};
 		93C629C12BFBD416D38AEE84 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -519,8 +1143,10 @@
 		};
 		C3C7D7CD76FBF6081C2378EF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F82385E916EDCB55845A3430 /* Pods-Scaremonger-Scaremonger-iOS.release.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -529,7 +1155,10 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Sources/Info-iOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_NAME = Scaremonger;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -541,8 +1170,10 @@
 		};
 		E18A421A143DC82637485729 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C471EDE25074BCEEF1F19BB9 /* Pods-Scaremonger-Scaremonger-iOS.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -551,10 +1182,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Sources/Info-iOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_NAME = Scaremonger;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -563,7 +1198,9 @@
 		};
 		EA4B9F150AA616503DCEEE40 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4360C6BBC209AEA3E7D0D3B7 /* Pods-Scaremonger-Scaremonger-tvOS.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -572,7 +1209,10 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Sources/Info-tvOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_NAME = Scaremonger;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
@@ -585,6 +1225,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		783931AE2327A1A100081B0D /* Build configuration list for PBXNativeTarget "Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				783931AF2327A1A100081B0D /* Debug */,
+				783931B02327A1A100081B0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
 		BBCD3AD59DF630D65C69CE3D /* Build configuration list for PBXNativeTarget "Scaremonger-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
